@@ -14,10 +14,24 @@
       <ion-card-title>Proibida</ion-card-title>
       <h1>Proibida</h1>
       <p>Tão gostosa que é proibida. A melhor puro malte do Ceará</p>
-      <ion-button fill="outiline" [routelink]="['/cerveja-detalhes']"> 
+      <ion-button fill="outiline" [routerLink]="['/cerveja-detalhes',50]"> 
         Mais detalhes
       </ion-button>
     </ion-card-content>
   </ion-card>
   <ion-button href="/home" color="dark">voltar</ion-button>
+  <ion-card>
+    <ion-card-header>
+      <ion-img src="assets/cerveja-skol-malte.webp"></ion-img>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-subtitle>Puro Malte</ion-card-subtitle>
+      <ion-card-title>Skol</ion-card-title>
+      <h1>Skol</h1>
+      <p>Puro malte que desce redondo</p>
+      <ion-button fill="outiline" [routerLink]="['/cerveja-detalhes',50]"> 
+        Mais detalhes
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
