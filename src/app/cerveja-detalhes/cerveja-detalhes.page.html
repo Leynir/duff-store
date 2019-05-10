@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>cerveja-detalhes</ion-title>
+    <ion-title>Detalhes da cerveja {{nome}}</ion-title>
+ <ion-buttons slot="start">
+   <ion-back-button></ion-back-button>
+ </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-
+  <h2>{{nome}}</h2>
+  <p>{{descricao}}</p>
 </ion-content>
